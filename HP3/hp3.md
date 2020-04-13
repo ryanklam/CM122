@@ -4,11 +4,11 @@ output:
   html_document: default
 ---
 
-# Homework Project 2A - 10 Kilobase Sequence Assembly
+# Homework Project 3 - 10 Kilobase Sequence Assembly
 
 ## BIOINFO M122/M222
 
-### Due: Sunday May 12th, 2019, 11:59 pm
+### Due: Friday May 1st, 2020, 11:59 pm
 
 This programming assignment is designed to teach you about sequence assembly.
 
@@ -31,23 +31,24 @@ We are providing you with the skeleton for one script:
 
 Running the above scripts with the `-h` option should be self explanatory, but here is an example of running them to create a file that can be submitted on the website for the 10K length genome practice data provided for project 2.
 
-1. Download the 10K practice data from https://cm124.herokuapp.com/h2_data_files into the HP2 folder and unzip it. The commands below assume that you have a folder named practice_E_1 in the HP2 folder. If you download and save things in a different place you'll have to adjust the file paths below.
+1. Download the 10K practice data from https://cm122.herokuapp.com/h3_data_files into the HP3 folder and unzip it. The commands below assume that you have a folder named practice_E_1 in the HP2 folder. If you download and save things in a different place you'll have to adjust the file paths below.
 
 2. Use `basic_assembly.py` to align reads to the genome.
 
 ```
-python basic_hasher.py -r practice_E_1/reads_practice_E_1_chr_1.txt \
--o test_output.txt -t practice_E_1_chr_1
+python3 basic_assembly.py -r reads_practice_A_2_chr_1.txt -o practice_A_2_output.txt -t reads_practice_A_2_chr_1
 ```
 
 This will generate a file of contigs in test_output.txt and a zipped version of that file formatted correctly for submission.
+
+*NOTE: -t assigns a genome name to your submission. Your final submission for the project MUST use "-t hw3all_A_3_chr_1" otherwise the submission site will not accept it. *
 
 You can submit your results as many times as you want to achieve a passing score.
 
  
 
 ### I/O Details
-https://cm124.herokuapp.com/ans_file_doc should handle most of your questions on reading and writing output.
+https://cm122.herokuapp.com/ans_file_doc should handle most of your questions on reading and writing output.
 
 ### Spectrum
 

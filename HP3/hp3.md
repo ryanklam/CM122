@@ -28,7 +28,7 @@ Running the above scripts with the `-h` option should be self explanatory, but h
 2. Use `basic_assembly.py` as shown below.
 
 ```
-python3 basic_assembly.py -r reads_practice_A_2_chr_1.txt -o practice_A_2_output.txt -t reads_practice_A_2_chr_1
+python3 basic_assembly.py -r reads_practice_A_2_chr_1.txt -o practice_A_2_output.txt -t practice_A_2_chr_1
 ```
 
 This will generate a file of contigs in test_output.txt and a zipped version of that file formatted correctly for submission.

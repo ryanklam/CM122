@@ -2,7 +2,7 @@
 
 ## CS/BIOINFO M122/M222
 
-### Due: Friday May 1st, 2020, 11:59 pm
+### Due: Friday May 8th, 2020, 11:59 pm
 
 This programming assignment is designed to teach you about sequence assembly.
 
@@ -42,9 +42,6 @@ You can submit your results as many times as you want to achieve a passing score
 ### I/O Details
 https://cm122.herokuapp.com/ans_file_doc should handle most of your questions on reading and writing output.
 
-### Spectrum
-
-To generate the de Bruijn Graph, you need to first generate a k-mer spectrum from the reads; the spectrum is the set of shorter sequences present.  You will want to generate a spectrum with a sufficiently large number of bases, so that most of the sequences in the spectrum are not covered.
 
 ### de Bruijn Graph
 

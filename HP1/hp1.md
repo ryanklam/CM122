@@ -1,7 +1,3 @@
----
-output:
-  html_document: default
----
 # Homework Project 1 - 10 kilobase alignment
 
 ## CS/BIOINFO M122/M222
@@ -39,7 +35,7 @@ cd HP1
 wget http://studentdownloads.s3.amazonaws.com/practice_W_1.zip
 wget http://studentdownloads.s3.amazonaws.com/hw1_W_2.zip
 unzip practice_W_1.zip
-unzip hw_1_W_2.zip
+unzip hw1_W_2.zip
 ```
 
 Obviously, you can just also open the browser and download and unzip the files using your file manager.
@@ -50,12 +46,8 @@ We are providing you with the skeleton for one script:
 Running the above script with the `-h` option should be self explanatory, but here is an example of running them to create a file that can be submitted on the website for the practice data.
 
 ```
-python basic_aligner.py -g practice_W_1/ref_practice_W_1_chr_1.txt \
--r practice_W_1/reads_practice_W_1_chr_1.txt -o test_output.txt \
--t practice_W_1_chr_1
+python basic_aligner.py -g ref_practice_W_1_chr_1.txt -r reads_practice_W_1_chr_1.txt -o test_output.txt -t practice_W_1_chr_1
 ```
-**The step above can take >30 minutes!**
-
 
 This will generate the file test_output.txt.zip that you can submit on the website. It also generates a .txt file that you can look at. **Note that the -t parameter HAS to be practice_W_1_chr_1 when submitting the practice data and hw1_W_2_chr_1 when submitting the real assignment. This will let the online submission system know on which leaderboard to place you.**
 

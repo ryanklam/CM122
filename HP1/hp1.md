@@ -4,11 +4,11 @@ output:
 ---
 # Homework Project 1 - 10 kilobase alignment
 
-## BIOINFO M122/M222
+## CS/BIOINFO M122/M222
 
-### Due: Thursday April 11th, 2019, 11:59 pm
+### Due: Friday, May 8th, 2020, 11:59 pm
 
-This short programming assignment is designed to help you get an understanding for the basics of sequence alignment. You can use any language for this project, but Python is strongly recommended, and you will receive starter code in Python. You will submit your response to https://cm124.herokuapp.com/upload as a `.zip` file.
+This short programming assignment is designed to help you get an understanding for the basics of sequence alignment. You can use any language for this project, but Python is strongly recommended, and you will receive starter code in Python. You will submit your response to https://cm122.herokuapp.com/upload as a `.zip` file.
 
 ### Overview
 In the first two programming assignments for this class, you will solve the computational problem of re-sequencing, which is the process of inferring a donor genome based on reads and a reference. 
@@ -23,23 +23,16 @@ Your task is to map the reads to the reference genome and then determine where t
 
 ### Starter Code
 
-Starter code for all the class projects is available at https://github.com/eeskin/CM122_starter_code. It is strongly recommended that you use git for these programming assignments, and to set up your own account on github.com. The tutorials at http://try.github.io/ might come in handy. If you are completely unfamiliar with git and github, you can obtain a copy of the code by running
+Starter code for all the class projects is available at https://github.com/nlapier2/CM122_starter_code. It is strongly recommended that you use git for these programming assignments, and to set up your own account on github.com. The tutorials at http://try.github.io/ might come in handy. If you are completely unfamiliar with git and github, you can obtain a copy of the code by running
 ```
-git clone https://github.com/eeskin/CM122_starter_code.git
+git clone https://github.com/nlapier2/CM122_starter_code.git
 ```
 This will create a folder named CM122_starter_code in your current directory.
-
-## Dependencies
-
-The starter code for project 1 uses the `numpy` library, which can be installed in your local environment using
-```
-conda install numpy
-```
 
 ## Tutorial
 The starter code provided handles reading the reads and reference genome into Python lists, as well as converting a list of SNPs into the proper output format. You will be responsible for aligning the reads to the reference, and calling SNPs.
 
-You should download the practice and "for-credit" data from https://cm124.herokuapp.com/h1_data_files. If you want to follow the tutorial below, download and extract these files into the HP1 folder. Via command line that would look like this:
+You should download the practice and "for-credit" data from https://cm122.herokuapp.com/h1_data_files. If you want to follow the tutorial below, download and extract these files into the HP1 folder. Via command line that would look like this:
 ```
 cd CM122_starter_code
 cd HP1
@@ -66,12 +59,10 @@ python basic_aligner.py -g practice_W_1/ref_practice_W_1_chr_1.txt \
 
 This will generate the file test_output.txt.zip that you can submit on the website. It also generates a .txt file that you can look at. **Note that the -t parameter HAS to be practice_W_1_chr_1 when submitting the practice data and hw1_W_2_chr_1 when submitting the real assignment. This will let the online submission system know on which leaderboard to place you.**
 
-__Windows Users__ : Command line on Windows is a little tricky. There are several ways you can run the commands above, but probably the simplest one is to use the Anaconda prompt that came with your Anaconda installation. Another option is to set command line parameters using PyCharm: https://stackoverflow.com/questions/33102272/pycharm-and-sys-argv-arguments. Yet another option is to go into the code and hardcode the file names you want to use and remove the section that takes in command line arguments so you can run the code in Pycharm without adding any command line arguments. This last option is unfortunate and I hope you don't resort to it.
-
 Read the content of HP1, and see if you can understand what it is doing. You can submit your results as many times as you want to achieve a passing score.
 
 ### I/O Details
-https://cm124.herokuapp.com/ans_file_doc should handle most of your questions on reading and writing output.
+https://cm122.herokuapp.com/ans_file_doc should handle most of your questions on reading and writing output.
 
 ### Questions to consider
 The genome from which the reads are generated has not only SNPs, but insertions, deletions, and repeated sequences that are not present in the reference. 
@@ -83,8 +74,8 @@ More generally, what is the "signature" of a SNP mismatch in the consensus seque
 
 ### Grading
 
-Remember to submit your solutions to https://cm124.herokuapp.com/upload as a `.zip` file. You can submit as many times as you want without penalty.
+Remember to submit your solutions to https://cm122.herokuapp.com/upload as a `.zip` file. You can submit as many times as you want without penalty.
 
-You will be graded on your performance on the test set, which can be found at https://cm124.herokuapp.com/h1_data_files and under week 1 on CCLE. You can also submit your solutions for the practice data to https://cm124.herokuapp.com/upload to see how your solution is performing.
+You will be graded on your performance on the test set, which can be found at https://cm122.herokuapp.com/h1_data_files and under week 1 on CCLE. You can also submit your solutions for the practice data to https://cm122.herokuapp.com/upload to see how your solution is performing.
 
 Undergrads will get full credit with a score of 45 on SNPs, and no credit for a score of 25 or below.  Grad students will get full credit with a score of 60 on SNPs, and no credit for a score of 40 or below.

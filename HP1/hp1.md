@@ -15,7 +15,7 @@ The first line of each file indicates which project the data relates to. In the 
 
 The paired end reads are generated from the unknown donor sequence, and 10 percent of the reads are generated randomly to mimic contamination with another genetic source. These reads are formatted as two 50 bp-long ends, which are separated by a 90-110 bp-long separator. 
 
-Your task is to map the reads to the reference genome and then determine where the reads indicate there is a difference (a variant). The different kinds of variants that may be found in the donor genome are explained at https://cm124.herokuapp.com/variant_doc
+Your task is to map the reads to the reference genome and then determine where the reads indicate there is a difference (a variant). The different kinds of variants that may be found in the donor genome are explained at https://cm122.herokuapp.com/variant_doc
 
 ### Starter Code
 

@@ -1,13 +1,8 @@
----
-output:
-  html_document: default
----
-
 # Homework Project 2 - Megabase-scale alignment: 1-Million Length Genome
 
 ## BIOINFO M122/M222
 
-### Due: Sunday April 21st, 2019, 11:59 pm
+### Due: Friday May 22nd, 2019, 11:59 pm
 
 This programming assignment is designed to expand your understanding of sequencing and the difficulty of mapping insertions and deletions.
 
@@ -22,7 +17,7 @@ The paired end reads are generated from the unknown donor sequence, and 10 perce
 
 ### Starter Code
 
-Starter code for the project has been pushed to the Github repository at https://github.com/eeskin/CM122_starter_code. Use `git pull` in the CM122_starter_code repository you cloned to get the updated code, or you can just redownload the files directly from the link. As with HP1, you should read the content of the HP2 code, and see if you can understand what it is doing. You should also look to see where your input/output is going to go. 
+Starter code for the project has been pushed to the Github repository at https://github.com/nlapier2/CM122_starter_code. Use `git pull` in the CM122_starter_code repository you cloned to get the updated code, or you can just redownload the files directly from the link. As with HP1, you should read the content of the HP2 code, and see if you can understand what it is doing. You should also look to see where your input/output is going to go. 
 
 ## Tutorial
 
@@ -33,7 +28,7 @@ We are providing you with the skeleton for one script:
 
 Running the above scripts with the `-h` option should be self explanatory, but here is an example of running them to create a file that can be submitted on the website for the 10K length genome practice data provided for project 2.
 
-1. Download the 10K practice data from https://cm124.herokuapp.com/h2_data_files into the HP2 folder and unzip it. The commands below assume that you have a folder named practice_E_1 in the HP2 folder. If you download and save things in a different place you'll have to adjust the file paths below.
+1. Download the 10K practice data from https://cm122.herokuapp.com/h2_data_files into the HP2 folder and unzip it. The commands below assume that you have a folder named practice_E_1 in the HP2 folder. If you download and save things in a different place you'll have to adjust the file paths below.
 
 2. Use `basic_hasher.py` to align reads to the genome.
 
@@ -50,7 +45,7 @@ This will generate a file of changes in test_output.txt and a zipped version of 
 You can submit your results as many times as you want to achieve a passing score.
 
 ### I/O Details
-https://cm124.herokuapp.com/ans_file_doc should handle most of your questions on reading and writing output.
+https://cm122.herokuapp.com/ans_file_doc should handle most of your questions on reading and writing output.
 
 ### Smith-Waterman Reconstruction
 

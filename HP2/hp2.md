@@ -36,8 +36,6 @@ Running the above scripts with the `-h` option should be self explanatory, but h
 python basic_hasher.py -g ref_practice_E_1_chr_1.txt -r reads_practice_E_1_chr_1.txt -o test_output.txt -t practice_E_1_chr_1
 ```
 
-**The step above may take ~30 minutes!**
-
 This will generate a file of changes in test_output.txt and a zipped version of that file formatted correctly for submission.
 
 You can submit your results as many times as you want to achieve a passing score.
@@ -52,6 +50,8 @@ For more enrichment on variant calling using the Smith-Waterman Algorithm, see U
 Chapter 5 in the textbook also goes over these ideas.
 
 ### Grading
+
+** NOTE: The "HP2A 1-Million Length Genome" is for undergrads. The "HP2B 100-Million Length Genome" is for graduate students. **
 
 | SNP Score | No Credit | Full Credit |
 |-----------|-----------|-------------|

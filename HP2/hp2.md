@@ -33,9 +33,7 @@ Running the above scripts with the `-h` option should be self explanatory, but h
 2. Use `basic_hasher.py` to align reads to the genome.
 
 ```
-python basic_hasher.py -g practice_E_1/ref_practice_E_1_chr_1.txt \
--r practice_E_1/reads_practice_E_1_chr_1.txt -o test_output.txt \
--t practice_E_1_chr_1
+python basic_hasher.py -g ref_practice_E_1_chr_1.txt -r reads_practice_E_1_chr_1.txt -o test_output.txt -t practice_E_1_chr_1
 ```
 
 **The step above may take ~30 minutes!**

@@ -2,7 +2,7 @@
 
 ## CS/BIOINFO M122/M222
 
-### Due: Monday, May 11th, 2020, 2:00 pm
+### Due: Monday, May 4th, 2021, 5:00 pm
 
 This short programming assignment is designed to help you get an understanding for the basics of sequence alignment. You can use any language for this project, but Python is strongly recommended, and you will receive starter code in Python. You will submit your response to https://cm122.herokuapp.com/upload as a `.zip` file.
 
@@ -21,7 +21,7 @@ Your task is to map the reads to the reference genome and then determine where t
 
 Starter code for all the class projects is available at https://github.com/nlapier2/CM122_starter_code. It is strongly recommended that you use git for these programming assignments, and to set up your own account on github.com. The tutorials at http://try.github.io/ might come in handy. If you are completely unfamiliar with git and github, you can obtain a copy of the code by running
 ```
-git clone https://github.com/nlapier2/CM122_starter_code.git
+git clone https://github.com/rosie068/CM122_starter_code.git
 ```
 This will create a folder named CM122_starter_code in your current directory.
 
@@ -32,8 +32,8 @@ You should download the practice and "for-credit" data from https://cm122.heroku
 ```
 cd CM122_starter_code
 cd HP1
-wget http://studentdownloads.s3.amazonaws.com/practice_W_1.zip
-wget http://studentdownloads.s3.amazonaws.com/hw1_W_2.zip
+wget http://studentdownloads.s3-us-west-1.amazonaws.com/practice_W_1.zip
+wget http://studentdownloads.s3-us-west-1.amazonaws.com/hw1_W_2.zip
 unzip practice_W_1.zip
 unzip hw1_W_2.zip
 ```

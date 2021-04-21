@@ -10,7 +10,7 @@ If you have PyCharm installed, you'll want to go into Preferences and make sure 
 
 Finally, you'll want to set up git on your machine. If you have a Mac, type "git" at the command line, and you'll download some XCode Developer Tools that will set up git automatically; 
 
-If you have a Windows machine, things might be a little trickier. I recommend just downloading git for windows from https://git-scm.com/download/win. This will come with it's own command line tool that will allow you to clone the repository using `git clone https://github.com/eeskin/CM122_starter_code.git`. 
+If you have a Windows machine, things might be a little trickier. I recommend just downloading git for windows from https://git-scm.com/download/win. This will come with it's own command line tool that will allow you to clone the repository using `git clone https://github.com/rosie068/CM122_starter_code.git`. 
 
 # Installing dependencies
 

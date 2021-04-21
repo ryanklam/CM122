@@ -19,7 +19,7 @@ Your task is to map the reads to the reference genome and then determine where t
 
 ### Starter Code
 
-Starter code for all the class projects is available at https://github.com/nlapier2/CM122_starter_code. It is strongly recommended that you use git for these programming assignments, and to set up your own account on github.com. The tutorials at http://try.github.io/ might come in handy. If you are completely unfamiliar with git and github, you can obtain a copy of the code by running
+Starter code for all the class projects is available at https://github.com/rosie068/CM122_starter_code. It is strongly recommended that you use git for these programming assignments, and to set up your own account on github.com. The tutorials at http://try.github.io/ might come in handy. If you are completely unfamiliar with git and github, you can obtain a copy of the code by running
 ```
 git clone https://github.com/rosie068/CM122_starter_code.git
 ```

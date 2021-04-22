@@ -28,7 +28,7 @@ This will create a folder named CM122_starter_code in your current directory.
 ## Tutorial
 The starter code provided handles reading the reads and reference genome into Python lists, as well as converting a list of SNPs into the proper output format. You will be responsible for aligning the reads to the reference, and calling SNPs.
 
-You should download the practice and "for-credit" data from https://cm122.herokuapp.com/h1_data_files. If you want to follow the tutorial below, download and extract these files into the HP1 folder. Via command line that would look like this:
+You should download the practice from https://studentdownloads.s3-us-west-1.amazonaws.com/practice_W_1.zip and "for-credit" data from https://studentdownloads.s3-us-west-1.amazonaws.com/hw1_W_2.zip. If you want to follow the tutorial below, download and extract these files into the HP1 folder. Via command line that would look like this:
 ```
 cd CM122_starter_code
 cd HP1
@@ -68,6 +68,6 @@ More generally, what is the "signature" of a SNP mismatch in the consensus seque
 
 Remember to submit your solutions to https://cm122.herokuapp.com/upload as a `.zip` file. You can submit as many times as you want without penalty.
 
-You will be graded on your performance on the test set, which can be found at https://cm122.herokuapp.com/h1_data_files and under week 1 on CCLE. You can also submit your solutions for the practice data to https://cm122.herokuapp.com/upload to see how your solution is performing.
+You will be graded on your performance on the test set, which can be found at https://studentdownloads.s3-us-west-1.amazonaws.com/hw1_W_2.zip and under week 1 on CCLE. You can also submit your solutions for the practice data to https://cm122.herokuapp.com/upload to see how your solution is performing.
 
 Undergrads will get full credit with a score of 45 on SNPs, and no credit for a score of 25 or below.  Grad students will get full credit with a score of 60 on SNPs, and no credit for a score of 40 or below.

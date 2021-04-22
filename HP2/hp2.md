@@ -17,7 +17,7 @@ The paired end reads are generated from the unknown donor sequence, and 10 perce
 
 ### Starter Code
 
-Starter code for the project has been pushed to the Github repository at https://github.com/nlapier2/CM122_starter_code. Use `git pull` in the CM122_starter_code repository you cloned to get the updated code, or you can just redownload the files directly from the link. As with HP1, you should read the content of the HP2 code, and see if you can understand what it is doing. You should also look to see where your input/output is going to go. 
+Starter code for the project has been pushed to the Github repository at https://github.com/rosie068/CM122_starter_code. Use `git pull` in the CM122_starter_code repository you cloned to get the updated code, or you can just redownload the files directly from the link. As with HP1, you should read the content of the HP2 code, and see if you can understand what it is doing. You should also look to see where your input/output is going to go. 
 
 ## Tutorial
 
